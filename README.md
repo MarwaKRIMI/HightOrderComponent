@@ -1,2 +1,0 @@
-# HightOrderComponent
-Created with CodeSandbox

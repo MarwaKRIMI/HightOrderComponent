@@ -1,0 +1,78 @@
+.title {
+  text-decoration-style: solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.movie-card {
+  border: 2px solid black;
+  width: 200px;
+  height: 250px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.movie-image {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVJ6rGQg57ae-4BswsqsXlwfObYdbfJSHJLYL5U5opE8C5GO8xDg);
+  height: 250px;
+  width: 200px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.loading {
+  text-align: center;
+  animation: fadein 6s;
+  -moz-animation: fadein 6s; /* Firefox */
+  -webkit-animation: fadein 6s; /* Safari et Chrome */
+  -o-animation: fadein 6s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0, 5;
+  }
+}
+@-moz-keyframes fadein {
+  /* sur Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0, 5;
+  }
+}
+@-webkit-keyframes fadein {
+  /* sur Safari et Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0, 5;
+  }
+}
+.spinner {
+  text-align: center;
+}
+.img {
+  width: 50px;
+  height: 50px;
+}
+.container {
+  display: flex;
+  margin-left: 50px;
+  text-align: center;
+}
+.movie-rating {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 5px 10px;
+  border: 3px solid black;
+  border-top: none;
+  border-right: none;
+  color: white;
+}
